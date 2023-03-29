@@ -19028,7 +19028,7 @@ Webflow.require('ix2').init(
 // Set the countdown date (in this case, 10 minutes from now)
 //var countdownDate = new Date("Apr 6, 2023 08:00:00").getTime();
 
-var countdownDate = new Date(r).getTime() + ((1000 * 60 * 60 * 24)7);
+var countdownDate = new Date(r).getTime() + 604,800,000;
 
 // Update the countdown every second
 var x = setInterval(function() {
