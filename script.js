@@ -19084,8 +19084,7 @@ var x = setInterval(function() {
     document.getElementById("hours").innerHTML = "00";
     document.getElementById("minutes").innerHTML = "00";
     document.getElementById("seconds").innerHTML = "00";
-    document.getElementById("status").innerHTML = "- CAMP ONGOING -";
-    document.getElementById("button").style.display = 'none';
+    document.getElementById("status").innerHTML = "- SEE YOU IN THE FUTURE -";
 }
 
 }, 1000);
