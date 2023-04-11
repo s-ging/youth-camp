@@ -19085,7 +19085,7 @@ var x = setInterval(function() {
     document.getElementById("minutes").innerHTML = "00";
     document.getElementById("seconds").innerHTML = "00";
     document.getElementById("status").innerHTML = "- SEE YOU IN THE FUTURE -";
-    document.getElementById("button").innerHTML = display: hidden;
+    document.getElementById("button").style.display = 'none';
 }
 
 }, 1000);
